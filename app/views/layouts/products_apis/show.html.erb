@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @products_api %>
+
+<div>
+  <%= link_to "Edit this products api", edit_products_api_path(@products_api) %> |
+  <%= link_to "Back to products apis", products_apis_path %>
+
+  <%= button_to "Destroy this products api", @products_api, method: :delete %>
+</div>
